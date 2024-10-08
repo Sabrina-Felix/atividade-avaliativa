@@ -27,7 +27,7 @@ document.getElementById('btnEnviar').addEventListener('click', function() {
         }
         reader.readAsDataURL(imgInput.files[0]);
     } else {
-        document.getElementById('area-foto').innerHTML = ''; // Limpa a área da foto se nenhuma imagem for selecionada
+        document.getElementById('area-foto').innerHTML = ''; 
     }
 
     document.getElementById('mensagem-erro').innerText = '';
